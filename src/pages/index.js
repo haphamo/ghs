@@ -1,4 +1,5 @@
 import React from "react"
+import Header from "../components/header"
 
 export default () => 
-<h1>Header One</h1>
+<Header />
