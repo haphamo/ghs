@@ -1,5 +1,16 @@
 import React from "react"
+import styled from "styled-components"
+
+const HeaderSection = styled.div`
+  height: 7em;
+  background-color: #322E72;
+  
+`
 
 export default (props) => (
-<h1>{props.headerText}</h1>
+  <HeaderSection>
+
+    {props.headerText}
+  </HeaderSection>
+
 )
