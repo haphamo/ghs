@@ -3,7 +3,7 @@ import styled from "styled-components"
 import ghs from "../images/UBi-MRmE_400x400.png"
 
 const HeaderSection = styled.div`
-  height: 10em;
+  height: 10rem;
   background-color: #322E72;
   
 
