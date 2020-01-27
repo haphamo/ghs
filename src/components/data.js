@@ -1,6 +1,6 @@
 const data = [
               {title: "How you can help",
-              intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+              intro: "In mid-January 2020, the Guelph Humane Society had rescued 97 cats from a Guelph apartment. The organization is trying their best to provide care to all the cats but they need help! The total cost of taking all these cats will be a minimum of $20 000. Cash donations are the most needed but there are other ways you can help too!"}
 ]
 
 export default data

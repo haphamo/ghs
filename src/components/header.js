@@ -5,7 +5,7 @@ import ghs from "../images/UBi-MRmE_400x400.png"
 const HeaderSection = styled.div`
   height: 10rem;
   background-color: #322E72;
-  
+  margin-bottom: 3rem;
 
   img {
     border-radius: 50%;
