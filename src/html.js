@@ -1,26 +1,32 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+const htmlStyles = {
+  margin: 0,
+  backgroundColor: "#F2F0F2"
+}
+
 export default function HTML(props) {
   return (
-    <html {...props.htmlAttributes}>
+    <html  
+    {...props.htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         {props.headComponents}
+      
       </head>
-      <body 
-      style={{ margin: 0 }}
+      <body style={htmlStyles}
       {...props.bodyAttributes}>
         {props.preBodyComponents}
         <div
           key={`body`}
           id="___gatsby"
           dangerouslySetInnerHTML={{ __html: props.body }}
+        
         />
         {props.postBodyComponents}
       </body>
