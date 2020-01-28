@@ -4,6 +4,7 @@ import amazon from "../../src/images/amazon-logo.svg"
 import adopt from "../../src/images/adopt.svg"
 import ghscat from "../images/ghs-cat.jpg"
 import ghslogo from "../images/UBi-MRmE_400x400.png"
+import emailIcon from "../images/mail.svg"
 
 const data = [
               { component: "main-card",
@@ -41,6 +42,9 @@ const data = [
                               src: amazon,
                               alt: "amazon",
                               desc: "This wishlist has all the items that the shelter could benefit from. Don't forget that items more than $20 (before taxes & shipping) can be eligible for an donation tax receipt! For more information please email adoptions@guelphhumane.ca.",
+                              icon: emailIcon, 
+                              iconAlt: "email",
+                              email: "mailto:adoptions@guelphhumane.ca",
                             },
                             {
                               title: "Adopt",

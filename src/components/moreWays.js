@@ -13,7 +13,8 @@ const Container = styled.div`
 export default function MoreWays() {
   return (
   <Container>
-  
+    But there's more! 
+    There are also animal care needs
   </Container>
     
   )

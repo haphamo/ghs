@@ -11,6 +11,11 @@ const Text =  styled.div`
   h3 {
     color: dark grey
   }
+  img {
+    height: 3rem;
+  }
+
+
 `
 const Container = styled.div`
   display: flex;
