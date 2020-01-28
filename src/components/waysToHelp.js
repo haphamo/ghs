@@ -1,9 +1,9 @@
 import React, { Fragment } from "react"
 import uuid from "uuid"
-import donationIcon from "../../src/images/monetary-donations.svg"
-import giftCards from "../../src/images/gift-cards.svg"
-import amazon from "../../src/images/amazon-logo.svg"
-import adopt from "../../src/images/adopt.svg"
+import donationIcon from "../images/monetary-donations.svg"
+import giftCards from "../images/gift-cards.svg"
+import amazon from "../images/amazon-logo.svg"
+import adopt from "../images/adopt.svg"
 
 import data from "./data"
 import { Text, Icon, Img, Container } from "./waysToHelp.css"
@@ -14,7 +14,6 @@ export default function Ways(props) {
 
   const componentData = data.find(matchComponentName)
   const arrayData = componentData.containers
-  console.log(componentData.containers)
 
   const waysToHelp = arrayData.map(way => {
     const { title, src, alt, desc, buttonText, buttonLink } = way

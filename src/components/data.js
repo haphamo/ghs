@@ -3,6 +3,7 @@ import giftCards from "../../src/images/gift-cards.svg"
 import amazon from "../../src/images/amazon-logo.svg"
 import adopt from "../../src/images/adopt.svg"
 import ghscat from "../images/ghs-cat.jpg"
+import ghslogo from "../images/UBi-MRmE_400x400.png"
 
 const data = [
               { component: "main-card",
@@ -14,6 +15,11 @@ const data = [
                 linkOne: "https://kitchener.ctvnews.ca/guelph-home-had-97-cats-inside-not-80-humane-society-1.4782280",
                 linkTwoText: "Donate Online",
                 linkTwo: "https://guelphhumane.ca/donate-online/"
+              },
+              {
+                component: "header",
+                src: ghslogo,
+                alt: "guelph-humane-society-logo",
               },
               { component: "ways-to-help",
                 containers: [{

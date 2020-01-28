@@ -1,5 +1,5 @@
 import React from "react"
-import data from "../components/data"
+import data from "./data"
 
 import { Card, UpperSection, LowerSection, TextSection } from "./mainCard.css"
 

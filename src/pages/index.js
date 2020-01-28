@@ -9,8 +9,7 @@ export default function Index() {
   return (
   <div>
 
-    <Header headerText="Index Header"/>
-   
+    <Header component="header"/>
     <MainCard component="main-card"/>
     <WaysToHelp component="ways-to-help"/>
     <MoreWays />
