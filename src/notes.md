@@ -1,3 +1,5 @@
+We thank you in advance for your generosity and consideration of our animals’ needs this holiday season and as we move into the new year!
+
 GHS Amazon
 WishList: https://www.amazon.ca/hz/wishlist/ls/2W0O3NNTG84IU/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist
 

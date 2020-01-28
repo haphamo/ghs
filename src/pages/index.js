@@ -1,8 +1,8 @@
-import React, { Fragment } from "react"
+import React from "react"
 import Header from "../components/header"
-import styled from "styled-components"
 
 import MainCard from "../components/mainCard"
+import WaysToHelp from "../components/waysToHelp"
 
 export default function Index() {
   return (
@@ -11,6 +11,9 @@ export default function Index() {
     <Header headerText="Index Header"/>
    
     <MainCard />
+    <WaysToHelp />
+
+
    
   </div>
 
