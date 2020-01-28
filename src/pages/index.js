@@ -11,8 +11,8 @@ export default function Index() {
 
     <Header headerText="Index Header"/>
    
-    <MainCard />
-    <WaysToHelp />
+    <MainCard component="main-card"/>
+    <WaysToHelp component="ways-to-help"/>
     <MoreWays />
     
   </div>
