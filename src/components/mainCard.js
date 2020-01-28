@@ -10,22 +10,19 @@ export default function MainCard(props) {
 
   const componentData = data.find(matchComponentData)
   
-  const { title, src, alt , summary, linkOne, linkTwo } = componentData
+  const { title, src, alt , summary, linkOne, linkOneText, linkTwo, linkTwoText } = componentData
   return (
     <Card>
         <UpperSection>
-          {/* contains the text and img */}
           <TextSection>
             <h2>{title}</h2>
             {summary}
           </TextSection>
           <img src={src} alt={alt}></img>
         </UpperSection>
-      
         <LowerSection>
-          {/* contains buttons/links */}
-          <a href={linkOne} target="_blank">Read More</a>
-          <a href={linkTwo} className="button" target="_blank">Donate Online!</a>
+          <a href={linkOne} target="_blank">{linkOneText}</a>
+          <a href={linkTwo} className="button" target="_blank">{linkTwoText}</a>
         </LowerSection>
       </Card>
   )

@@ -10,7 +10,9 @@ const data = [
                 src: ghscat,
                 alt: "rescued-cat",
                 summary: "In mid-January 2020, the Guelph Humane Society had rescued 97 cats from a Guelph apartment. The organization is trying their best to provide care to all the cats but they need help! The total cost of taking all these cats will be a minimum of $20 000. Cash donations are the most needed but there are many other ways you can help too!",
+                linkOneText: "Read More",
                 linkOne: "https://kitchener.ctvnews.ca/guelph-home-had-97-cats-inside-not-80-humane-society-1.4782280",
+                linkTwoText: "Donate Online",
                 linkTwo: "https://guelphhumane.ca/donate-online/"
               },
               { component: "ways-to-help",
