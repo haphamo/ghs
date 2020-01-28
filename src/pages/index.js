@@ -12,9 +12,7 @@ export default function Index() {
    
     <MainCard />
     <WaysToHelp />
-
-
-   
+    
   </div>
 
   )

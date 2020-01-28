@@ -1,3 +1,5 @@
+Create conditional component for gift cards for the logos
+
 We thank you in advance for your generosity and consideration of our animals’ needs this holiday season and as we move into the new year!
 
 GHS Amazon
