@@ -3,6 +3,7 @@ import Header from "../components/header"
 
 import MainCard from "../components/mainCard"
 import WaysToHelp from "../components/waysToHelp"
+import MoreWays from "../components/moreWays"
 
 export default function Index() {
   return (
@@ -12,6 +13,7 @@ export default function Index() {
    
     <MainCard />
     <WaysToHelp />
+    <MoreWays />
     
   </div>
 

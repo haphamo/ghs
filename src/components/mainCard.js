@@ -13,13 +13,13 @@ export default function MainCard() {
             <h2>{data[0].title}</h2>
             {data[0].summary}
           </TextSection>
-          <img src={data[0].src} alt="rescued-cat-from-ghs"></img>
+          <img src={data[0].src} alt={data[0].alt}></img>
         </UpperSection>
       
         <LowerSection>
           {/* contains buttons/links */}
-          <a href="https://kitchener.ctvnews.ca/guelph-home-had-97-cats-inside-not-80-humane-society-1.4782280" target="_blank">Read More</a>
-          <a href="https://guelphhumane.ca/donate-online/" className="button" target="_blank">Donate!</a>
+          <a href={data[0].linkOne} target="_blank">Read More</a>
+          <a href={data[0].linkTwo} className="button" target="_blank">Donate Online!</a>
         </LowerSection>
       </Card>
   )

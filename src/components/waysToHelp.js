@@ -3,39 +3,9 @@ import styled from "styled-components"
 import donationIcon from "../../src/images/monetary-donations.svg"
 import giftCards from "../../src/images/gift-cards.svg"
 import amazon from "../../src/images/amazon-logo.svg"
+import adopt from "../../src/images/adopt.svg"
+import { Text, Icon, Img, Container } from "./waysToHelp.css"
 
-const Text =  styled.div`
-  
-  font-family: Lato, sans-serif;
-  width: 27rem;
-  
-  text-align: center;
-  line-height: 1.5;
-  color: grey; 
-  h3 {
-    color: dark grey
-  }
-`
-const Container = styled.div`
-  display: flex;
-  flex-direction: row;
-  margin: 4rem;
-  justify-content: space-evenly;
-  
-`
-
-const Img = styled.img`
-  height: 6rem
-
-`
-
-const Icon = styled.a`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
- 
-`
 
 export default function Ways() {
   return (
@@ -47,6 +17,13 @@ export default function Ways() {
       <Text>
         <h3>Cash Donations</h3>
         Our number one need in order to continue the high-level of care every animal that comes into our shelter receives. For donations over $20 you will receive a donation receipt! You can donate online or by visiting 500 Wellington Street West.
+        <br></br>
+        $25 covers one day of care for one kitty
+        <br></br>
+        $80 covers a wellnes exam, every cat needs one
+        <br></br>
+        $150 covers basic medical care (vaccinations, parasite control, spay/neuter)
+       
         <button>Donate online!</button>
       </Text>
 
@@ -55,7 +32,7 @@ export default function Ways() {
 
     <Container>
       <Icon>
-        <Img src={giftCards} alt="gift-cards"></Img>
+        <Img src={giftCards} alt="adopt"></Img>
       </Icon>
       <Text>
         <h3>Gift Cards</h3>
@@ -74,6 +51,19 @@ export default function Ways() {
         <h3>Amazon Wishlist</h3>
         This wishlist has all the items that the shelter could benefit from. Don't forget that items more than $20 (before taxes & shipping) can be eligible for an donation tax receipt! For more information please email adoptions@guelphhumane.ca.
         <button>Amazon Wishlist!</button>
+      </Text>
+
+    </Container>
+
+    <Container>
+      <Icon>
+        <Img src={adopt} alt="adopt"></Img>
+      </Icon>
+      <Text>
+        <h3>Adopt!</h3>
+        Consider adopting or even fostering! Some of their animals are on their website but for more information head on over to 500 Wellington Street West.
+       
+        <button>Take a look at our animals up for adoption</button>
       </Text>
 
     </Container>
