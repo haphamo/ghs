@@ -17,6 +17,10 @@ const Container = styled.div`
   flex-direction: row;
   margin: 4rem;
   justify-content: space-evenly;
+  a {
+    display: flex;
+    justify-content: center;
+  }
   
 `
 
@@ -25,7 +29,7 @@ const Img = styled.img`
 
 `
 
-const Icon = styled.a`
+const Icon = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
