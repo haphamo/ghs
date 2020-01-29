@@ -1,9 +1,9 @@
-import styled from "styled-components"
+import styled, { css }from "styled-components"
 
 const Text =  styled.div`
   display: flex;
   font-family: Lato, sans-serif;
-  width: 27rem;
+  width: 19rem;
   flex-direction: column;
   text-align: center;
   line-height: 1.5;
@@ -19,14 +19,15 @@ const Text =  styled.div`
 `
 const Container = styled.div`
   display: flex;
-  flex-direction: row;
-  margin: 4rem;
-  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 1rem;
+  align-items: center;
   a {
     display: flex;
     justify-content: center;
   }
-  
+
+  flex: 0 1 30%;
 `
 
 const Img = styled.img`

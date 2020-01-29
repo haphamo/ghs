@@ -2,21 +2,7 @@ Create conditional component for gift cards for the logos
 
 We thank you in advance for your generosity and consideration of our animals’ needs this holiday season and as we move into the new year!
 
-GHS Amazon
-WishList: https://www.amazon.ca/hz/wishlist/ls/2W0O3NNTG84IU/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist
 
-Monetary donations
-https://app.etapestry.com/onlineforms/TheGuelphHumaneSociety/donatenow.html
-
-Gift Cards
-Local Pet Stores
-Grocery stores
-Staples
-Walmart
-Dollar stores
-Canadian Tire
-Home Depot
-Amazon
 
 Animal Care Needs
 GENTLY USED – Fleece blankets, towels, flat sheets, knitted blankets, baby blankets

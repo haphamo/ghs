@@ -11,10 +11,8 @@ export default function Index() {
 
     <Header component="header"/>
     <MainCard component="main-card"/>
-    <WaysToHelp component="ways-to-help"/>
-    <MoreWays />
-    
-  </div>
+    <WaysToHelp component="ways-to-help" />
+  </div>  
 
   )
  

@@ -4,8 +4,13 @@ import uuid from "uuid"
 import data from "./data"
 import { Text, Icon, Img, Container } from "./waysToHelp.css"
 
-
+const style = {
+  display: 'flex',
+  flexWrap: 'wrap',
+  flexDirection: 'row',
+}
 export default function Ways(props) {
+  console.log('prop', props)
   const matchComponentName = data => data.component === props.component
 
   const componentData = data.find(matchComponentName)
@@ -14,7 +19,8 @@ export default function Ways(props) {
   const waysToHelp = arrayData.map(way => {
     const { title, src, alt, desc, buttonText, buttonLink, icon, iconAlt, email } = way
     return (
-      <Container key={uuid()}>
+    
+      <Container key={uuid()} alt={alt}>
         <a href={buttonLink} target="_blank"><Icon><Img src={src} alt={alt}></Img></Icon></a>
         <Text>
           <h3>{title}</h3>
@@ -23,13 +29,15 @@ export default function Ways(props) {
           {icon && <a href={email}><img src={icon} alt={iconAlt}></img></a>}
         </Text>
       </Container>
+
+    
     )
   })
 
   return (
-    <Fragment>
+    <div style={style}>
       {waysToHelp}
-    </Fragment>
+    </div>
     
   )
 }
